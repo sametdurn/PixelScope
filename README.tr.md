@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icons/127.png" alt="PixelScope Logo" width="128">
+  <img src="icons/128.png" alt="PixelScope Logo" width="128">
 </p>
 
 <div align="center">
