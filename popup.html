@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"></head>
+<body>
+<section id="unlock">
+  <label class="sw"><input type="checkbox" id="tgl"> <span data-i18n="unlockLabel"></span></label>
+  <small id="tglMsg"></small>
+</section>
+<div class="bar">
+  <button id="scan" data-i18n="scanBtn"></button>
+  <input id="q" data-i18n-placeholder="filterPlaceholder">
+</div>
+<div id="count"></div>
+<div id="list"></div>
+<section id="detail" hidden>
+  <button id="back" data-i18n="backBtn"></button>
+  <img id="prev" referrerpolicy="no-referrer">
+  <div id="meta"></div>
+  <textarea id="url" readonly rows="3"></textarea>
+  <div class="row">
+    <button id="copy" data-i18n="copyBtn"></button>
+    <button id="open" data-i18n="openBtn"></button>
+    <button id="dl" data-i18n="downloadBtn"></button>
+    <button id="orig" data-i18n="findOriginalBtn"></button>
+  </div>
+  <div id="cands"></div>
+</section>
+<script src="popup.js"></script>
+</body></html>

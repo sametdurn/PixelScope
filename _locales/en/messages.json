@@ -1,0 +1,45 @@
+{
+  "extName": { "message": "PixelScope" },
+  "extDescription": { "message": "Removes right-click restrictions, finds all images on the page and tries to locate the original-resolution version." },
+
+  "menuOpen": { "message": "Open image in new tab" },
+  "menuSave": { "message": "Save image" },
+  "menuCopy": { "message": "Copy image" },
+  "menuOpenOrig": { "message": "Open original image in new tab" },
+  "menuSaveOrig": { "message": "Save original image" },
+  "menuCopyOrig": { "message": "Copy original image" },
+
+  "fileBase": { "message": "image" },
+  "alertNoImage": { "message": "No image found at this spot." },
+  "toastCopied": { "message": "Image copied" },
+  "toastCopyFailed": { "message": "Could not copy image." },
+
+  "unlockLabel": { "message": "Remove right-click / selection / drag restrictions" },
+  "unlockOn": { "message": "On: applies to all sites and tabs." },
+  "unlockOff": { "message": "Off." },
+  "scanBtn": { "message": "Scan images" },
+  "filterPlaceholder": { "message": "Filter (url, type)" },
+  "scanning": { "message": "Scanning…" },
+  "scanError": {
+    "message": "This page can't be scanned: $ERR$",
+    "placeholders": { "err": { "content": "$1" } }
+  },
+  "countText": {
+    "message": "$FILTERED$ / $TOTAL$ images",
+    "placeholders": { "filtered": { "content": "$1" }, "total": { "content": "$2" } }
+  },
+  "backBtn": { "message": "← List" },
+  "copyBtn": { "message": "Copy" },
+  "copiedBtn": { "message": "Copied ✓" },
+  "openBtn": { "message": "Open in new tab" },
+  "downloadBtn": { "message": "Download" },
+  "findOriginalBtn": { "message": "Find original" },
+  "metaType": {
+    "message": "Type: $TYPES$",
+    "placeholders": { "types": { "content": "$1" } }
+  },
+  "typeOriginalCandidate": { "message": "original candidate" },
+  "tryingCandidates": { "message": "Trying candidate URLs…" },
+  "noLarger": { "message": "No larger version found (the current one may already be the largest)." },
+  "viewerTitle": { "message": "Image" }
+}

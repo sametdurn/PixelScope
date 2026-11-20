@@ -1,0 +1,45 @@
+{
+  "extName": { "message": "PixelScope" },
+  "extDescription": { "message": "Sağ tık engelini kaldırır, sayfadaki tüm görselleri bulur ve orijinal çözünürlüklü sürümü bulmaya çalışır." },
+
+  "menuOpen": { "message": "Görseli yeni sekmede aç" },
+  "menuSave": { "message": "Görseli kaydet" },
+  "menuCopy": { "message": "Görseli kopyala" },
+  "menuOpenOrig": { "message": "Orijinal görseli yeni sekmede aç" },
+  "menuSaveOrig": { "message": "Orijinal görseli kaydet" },
+  "menuCopyOrig": { "message": "Orijinal görseli kopyala" },
+
+  "fileBase": { "message": "gorsel" },
+  "alertNoImage": { "message": "Bu noktada görsel bulunamadı." },
+  "toastCopied": { "message": "Görsel kopyalandı" },
+  "toastCopyFailed": { "message": "Görsel kopyalanamadı." },
+
+  "unlockLabel": { "message": "Sağ tık / seçim / sürükleme engelini kaldır" },
+  "unlockOn": { "message": "Açık: tüm sitelerde ve sekmelerde geçerli." },
+  "unlockOff": { "message": "Kapalı." },
+  "scanBtn": { "message": "Görselleri Tara" },
+  "filterPlaceholder": { "message": "Filtrele (url, tür)" },
+  "scanning": { "message": "Taranıyor…" },
+  "scanError": {
+    "message": "Bu sayfa taranamıyor: $ERR$",
+    "placeholders": { "err": { "content": "$1" } }
+  },
+  "countText": {
+    "message": "$FILTERED$ / $TOTAL$ görsel",
+    "placeholders": { "filtered": { "content": "$1" }, "total": { "content": "$2" } }
+  },
+  "backBtn": { "message": "← Liste" },
+  "copyBtn": { "message": "Kopyala" },
+  "copiedBtn": { "message": "Kopyalandı ✓" },
+  "openBtn": { "message": "Yeni sekmede aç" },
+  "downloadBtn": { "message": "İndir" },
+  "findOriginalBtn": { "message": "Orijinali bul" },
+  "metaType": {
+    "message": "Tür: $TYPES$",
+    "placeholders": { "types": { "content": "$1" } }
+  },
+  "typeOriginalCandidate": { "message": "orijinal adayı" },
+  "tryingCandidates": { "message": "Aday adresler deneniyor…" },
+  "noLarger": { "message": "Daha büyük bir sürüm bulunamadı (mevcut sürüm zaten en büyük olabilir)." },
+  "viewerTitle": { "message": "Görsel" }
+}
