@@ -1,8 +1,12 @@
-# PixelScope
+<p align="center">
+  <img src="assets/icons/127.png" alt="PixelScope Logo" width="128">
+</p>
 
-🇬🇧 English · 🇹🇷 [Türkçe](README.tr.md)
-
-A browser extension that removes right-click restrictions, finds and lists every image on a page, and tries to locate the **original-resolution** version of each image (Manifest V3, Chromium-based browsers).
+<div align="center">
+  <h1>PixelScope</h1>
+  <p>🇬🇧 English · 🇹🇷 <a href="README.tr.md">Türkçe</a></p>
+  <p>A browser extension that removes right-click restrictions, finds and lists every image on a page, and tries to locate the <strong>original-resolution</strong> version of each image (Manifest V3, Chromium-based browsers).</p>
+</div>
 
 ## Features
 

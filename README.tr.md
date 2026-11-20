@@ -1,8 +1,12 @@
-# PixelScope
+<p align="center">
+  <img src="assets/icons/127.png" alt="PixelScope Logo" width="128">
+</p>
 
-🇬🇧 [English](README.md) · 🇹🇷 Türkçe
-
-Sağ tık engelini kaldıran, sayfadaki tüm görselleri bulup listeleyen ve görsellerin **orijinal çözünürlüklü** sürümünü bulmaya çalışan tarayıcı eklentisi (Manifest V3, Chromium tabanlı tarayıcılar).
+<div align="center">
+  <h1>PixelScope</h1>
+  <p>🇬🇧 <a href="README.md">English</a> · 🇹🇷 Türkçe</p>
+  <p>Sağ tık engelini kaldıran, sayfadaki tüm görselleri bulup listeleyen ve görsellerin <strong>orijinal çözünürlüklü</strong> sürümünü bulmaya çalışan tarayıcı eklentisi (Manifest V3, Chromium tabanlı tarayıcılar).</p>
+</div>
 
 ## Özellikler
 
