@@ -58,6 +58,8 @@ Eklenti henüz mağazada yayınlanmadı; Chrome, Edge, Brave gibi Chromium taban
 3. Sağ üstten **Geliştirici modu**'nu etkinleştir.
 4. **Paketlenmemiş öğe yükle** ile `PixelScope` klasörünü seç.
 
+> Eklenti yüklemek istemezsen [Tampermonkey (kullanıcı betiği) sürümü](https://github.com/sametdurn/PixelScope-Userscript) de var.
+
 ## Kullanım
 
 1. **Engeli kaldırmak için:** Araç çubuğundaki PixelScope simgesine tıkla ve *Sağ tık / seçim / sürükleme engelini kaldır* kutusunu işaretle.

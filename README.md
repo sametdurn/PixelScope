@@ -58,6 +58,8 @@ The extension is not published in a store yet; load it in developer mode in Chro
 3. Enable **Developer mode** (top right).
 4. Click **Load unpacked** and select the `PixelScope` folder.
 
+> Prefer not to install an extension? There is also a [Tampermonkey (userscript) version](https://github.com/sametdurn/PixelScope-Userscript).
+
 ## Usage
 
 1. **To remove restrictions:** Click the PixelScope icon in the toolbar and check *Remove right-click / selection / drag restrictions*.
