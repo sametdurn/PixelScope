@@ -100,7 +100,10 @@ api.contextMenus.onClicked.addListener(async (info, tab) => {
     const target = url.startsWith('data:') ? api.runtime.getURL('viewer.html') + '#' + url : url;
     api.tabs.create({ url: target, index: tab.index + 1, openerTabId: tab.id });
   } else {
-    api.downloads.download({ url, filename: fname(url), saveAs: false });
+    // Ayar: true ise tarayıcı "Farklı kaydet" penceresiyle konum sorar, false ise doğrudan indirir.
+    let saveAs = false;
+    try { saveAs = !!(await api.storage.local.get('askSaveLocation')).askSaveLocation; } catch (e) {}
+    api.downloads.download({ url, filename: fname(url), saveAs });
   }
 });
 

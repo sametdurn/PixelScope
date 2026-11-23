@@ -17,6 +17,16 @@ $('tgl').onchange = async e => {
   $('tglMsg').textContent = msgOf(e.target.checked);
 };
 
+/* ---------- 1b. Kaydetme konumu ayarı (sor / sorma) ---------- */
+let askSave = false;
+const askMsgOf = v => t(v ? 'askSaveOn' : 'askSaveOff');
+api.storage.local.get('askSaveLocation').then(r => { askSave = !!r.askSaveLocation; $('askSave').checked = askSave; $('askSaveMsg').textContent = askMsgOf(askSave); });
+$('askSave').onchange = async e => {
+  askSave = e.target.checked;
+  await api.storage.local.set({ askSaveLocation: askSave });
+  $('askSaveMsg').textContent = askMsgOf(askSave);
+};
+
 /* ---------- 2. Görsel tarayıcı (sayfa içinde çalışır) ---------- */
 function scanFn() {
   const out = new Map();
@@ -142,7 +152,7 @@ const fname = u => {
   const ext = (n.match(/\.([a-z0-9]{2,5})$/i) || [])[1];
   return ext && IMG_EXT.test(ext) ? n : n + '.jpg';
 };
-$('dl').onclick = () => { if (okUrl(cur.url)) api.downloads.download({ url: cur.url, filename: fname(cur.url), saveAs: false }); };
+$('dl').onclick = () => { if (okUrl(cur.url)) api.downloads.download({ url: cur.url, filename: fname(cur.url), saveAs: askSave }); };
 
 // Orijinal sürüm adayları (sezgisel)
 function candidates(u) {

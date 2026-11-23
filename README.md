@@ -11,6 +11,7 @@
 ## Features
 
 - **Restriction removal:** Lifts right-click, text selection, drag, copy and cut restrictions. Toggled from the popup; the setting persists across all sites and tabs.
+- **Save location setting:** Toggled from the popup. When on, a "Save as" dialog asks where to save each image; when off, images go straight to the default download folder.
 - **Image context menu:** Works on images even on sites that block right-click.
   - Open image in new tab / save / copy
   - Open original image in new tab / save / copy

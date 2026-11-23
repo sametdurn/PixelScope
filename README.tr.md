@@ -11,6 +11,7 @@
 ## Özellikler
 
 - **Engel kaldırma:** Sağ tık, metin seçimi, sürükleme, kopyalama ve kesme engellerini kaldırır. Popup'tan açılıp kapatılır, ayar tüm sitelerde ve sekmelerde kalıcıdır.
+- **Kaydetme konumu ayarı:** Popup'tan açılıp kapatılır. Açıksa her kayıtta "Farklı kaydet" penceresi çıkar, kapalıysa görsel doğrudan varsayılan indirme klasörüne kaydedilir.
 - **Görsel sağ tık menüsü:** Sağ tık engeli olan sitelerde bile görselin üstünde çalışır.
   - Görseli yeni sekmede aç / kaydet / kopyala
   - Orijinal görseli yeni sekmede aç / kaydet / kopyala
